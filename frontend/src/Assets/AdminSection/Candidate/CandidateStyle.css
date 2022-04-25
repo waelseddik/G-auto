@@ -1,0 +1,195 @@
+.infocond {
+  border: 2px rgb(255, 255, 255) solide;
+  height: 525px;
+  margin-top: 25px;
+  background-color: rgba(1, 0, 8, 0.781);
+  color: azure;
+  overflow-y: auto;
+  width: 100px;
+  float: left;
+  border-radius: 10px;
+}
+.paiementsection {
+  position: absolute;
+  border: 1px rgb(255, 255, 136) solide;
+  width: 500px;
+
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-left: 430px;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.52);
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  color: azure;
+  border-radius: 10px;
+}
+.info_personnel {
+  border: 1px #ff87 solide;
+  width: 400px;
+  margin-left: 10px;
+  margin-top: 20px;
+  float: left;
+  background-color: rgba(241, 237, 237, 0.52);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: azure;
+  border-radius: 10px;
+}
+.prochaine-science {
+  position: absolute;
+  border: 1px #ff87 solide;
+  width: 400px;
+  margin-left: 10px;
+  margin-top: 320px;
+  float: left;
+  background-color: rgba(241, 237, 237, 0.52);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: azure;
+  border-radius: 10px;
+}
+
+.prochaine-examen {
+  position: absolute;
+  border: 1px #ff87 solide;
+  width: 400px;
+  margin-left: 430px;
+  margin-right: 10px;
+  margin-top: 320px;
+  float: right;
+  background-color: rgba(241, 237, 237, 0.52);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: azure;
+  border-radius: 10px;
+}
+legend h1 {
+  color: aliceblue;
+}
+
+/*button popup ajoute condidat*/
+#re {
+  margin-top: 3px;
+  width: 20px;
+  height: 20px;
+  color: black;
+  border-radius: 10px;
+}
+#styleformaj {
+  color: rgb(195, 1, 1);
+  text-align: center;
+}
+#st {
+  margin-left: 200px;
+}
+#boo3 {
+  width: 150px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(195, 1, 1);
+  border-radius: 10px;
+  margin: 20px;
+}
+#plus {
+  border: transparent;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  cursor: default;
+  background-color: transparent;
+  position: relative;
+  margin-left: 150px;
+}
+/* ajouter candidat */
+.formupdateseance {
+  position: relative;
+  margin-left: 20%;
+}
+
+#recherchecond {
+  width: 350px;
+  height: 35px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+#listecond {
+  background-color: transparent;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  margin-top: 5px;
+  width: 300px;
+  border-radius: 10px;
+}
+.blocrecherchecond {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(241, 237, 237, 0.52);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.blocrecherchecond:hover {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(190, 13, 13, 0.52);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#fi {
+  float: right;
+  padding: 5px;
+}
+
+#tvcond {
+  font-size: 20px;
+  width: 350px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border: 1px rgba(241, 237, 237, 0.52) solid;
+}
+#tvcond:hover {
+  font-size: 20px;
+  width: 350px;
+  border-radius: 10px;
+  color: rgb(185, 8, 8);
+  background-color: transparent;
+  border: 1px rgba(253, 6, 6, 0.835) solid;
+}
+#tvcond:active {
+  font-size: 20px;
+  width: 350px;
+  border-radius: 10px;
+  color: rgb(117, 20, 20);
+  background-color: transparent;
+  border: 1px rgba(138, 107, 107, 0.52) solid;
+}
+
+.bodyinfocond {
+  border: 2px rgb(255, 255, 255) solide;
+  height: 525px;
+  margin-top: 25px;
+  background-color: rgba(0, 0, 0, 0.781);
+  color: azure;
+  width: 970px;
+  float: right;
+  border-radius: 10px;
+}
+
+/* overflow style*/
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(195, 1, 1);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b4b4b4da;
+}
